@@ -1,0 +1,72 @@
+/* ESTILO BASE PARA TODAS LAS PAGINAS*/
+/* fondo */
+body {
+    background-color: rgb(181, 192, 252); /* Mantén tu color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+/* Menú */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+#m1 { background-color: rgb(85, 45, 145); }
+#m2 { background-color: rgb(95, 52, 160); }
+#m3 { background-color: rgb(105, 58, 175); }
+#m4 { background-color: rgb(115, 65, 190); }
+#m5 { background-color: rgb(125, 72, 205); }
+
+nav li {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav li:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 10px;
+    width: 100%;
+    display: block;
+}
+
+/* ESTILO PARA LA PAG DE BIENVENIDA*/
+/* Texto*/
+#titulo{
+    font-family: "Henny Penny", serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    word-spacing: 10px;
+    padding: 0px 70px;
+}
+
+/* Imagen*/
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+}

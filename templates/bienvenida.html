@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Arctic Monkeys{% endblock %}
+
+{% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
+<section>
+    <h1 id="titulo">Bienvenido al Fan Hub de Arctic Monkeys</h1>
+    
+    <p id="p">
+        Arctic Monkeys es una destacada banda de rock británica originaria de Sheffield, Inglaterra, 
+        formada en 2002. El grupo está integrado por el vocalista y compositor Alex Turner, junto al 
+        guitarrista Jamie Cook, el bajista Nick O'Malley y el baterista Matt Helders. A lo largo de 
+        su trayectoria se han consolidado como una de las agrupaciones más influyentes del rock moderno, 
+        evolucionando desde el sonido enérgico e independiente de sus primeros años hasta composiciones 
+        mucho más sofisticadas y cinematográficas.
+    </p>
+
+    <div>
+        <!-- Asegúrate de colocar una imagen en static/img/ con este mismo nombre -->
+        <img id="img1" src="{% static 'img/grupo.avif' %}" alt="Banda Arctic Monkeys" width="600">
+    </div>
+</section>
+{% endblock %}
