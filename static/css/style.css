@@ -1,9 +1,21 @@
 /* ESTILO BASE PARA TODAS LAS PAGINAS*/
 /* fondo */
 body {
-    background-color: rgb(181, 192, 252); /* Mantén tu color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    background-color: rgb(186, 178, 240);
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
 }
 
 header {
@@ -49,7 +61,7 @@ nav a {
 
 /* ESTILO PARA LA PAG DE BIENVENIDA*/
 /* Texto*/
-#titulo{
+h1{
     font-family: "Henny Penny", serif;
     letter-spacing: 1px;
     font-size: 40px;
@@ -67,6 +79,40 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     border-radius: 15px;
 }
+
+/* ESTILO PARA LA PAG DE ALBUMES APP1*/
+#sub {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+h3{
+    text-align: justify;
+    word-spacing: 10px;
+    padding: 0px 70px;
+}
+
+#img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 300px;
+}
+
+/* ESTILO PARA LA PAG DE CANCIONES APP1*/
+li{
+    margin: 10px 0;
+}
+
+#img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 300px;
+}
+

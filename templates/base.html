@@ -11,12 +11,11 @@
     <header>
         <nav>
             <ul>
-                <li id="m1" ><a href="{% url 'bienvenida' %}">Inicio</a></li>
-                <!-- Dejamos el '#' mientras no existan las apps para que no rompa la página -->
-                <li id="m2" ><a href="#">Álbumes</a></li>
-                <li id="m3" ><a href="#">Canciones Más Escuchadas</a></li>
-                <li id="m4" ><a href="#">Integrantes y Biografías</a></li>
-                <li id="m5" ><a href="#">Canciones</a></li>
+                <li id="m1"><a href="{% url 'bienvenida' %}">Inicio</a></li>
+                <li id="m2"><a href="{% url 'app1:albumes' %}">Álbumes</a></li>
+                <li id="m3"><a href="{% url 'app1:canciones' %}">Canciones Más Escuchadas</a></li>
+                <li id="m4"><a href="#">Integrantes y Biografías</a></li>
+                <li id="m5"><a href="#">Canciones</a></li>
             </ul>
         </nav>
     </header>
