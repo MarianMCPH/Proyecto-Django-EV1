@@ -4,13 +4,11 @@
 {% block title %}Integrantes | Arctic Monkeys{% endblock %}
 
 {% block content %}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
 <section>
     <h1>🎸Integrantes de la Banda🎸</h1>
 
-    <ul>
+    <ul style="list-style: none; padding-left: 0;">
         <li>
             <h3>Alex Turner (Voz principal y guitarra)</h3>
             <p>Líder, principal compositor y multiinstrumentista. Destacado por su agudeza lírica, juegos de palabras poéticos y presencia escénica carismática.</p>
@@ -34,7 +32,7 @@
 
     <div>
 
-        <img id="img4" src="{% static 'img/integrantes.webp' %}" alt="Banda Arctic Monkeys" width="600">
+        <img src="{% static 'img/integrantes.webp' %}" alt="Banda Arctic Monkeys" width="600">
     </div>
 </section>
 {% endblock %}

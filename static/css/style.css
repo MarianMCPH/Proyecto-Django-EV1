@@ -31,6 +31,16 @@ nav ul {
     width: 100%; 
 }
 
+li{
+    margin: 10px 0;
+}
+
+#sub {
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 #m1 { background-color: rgb(85, 45, 145); }
 #m2 { background-color: rgb(95, 52, 160); }
 #m3 { background-color: rgb(105, 58, 175); }
@@ -59,8 +69,6 @@ nav a {
     display: block;
 }
 
-/* ESTILO PARA LA PAG DE BIENVENIDA*/
-/* Texto*/
 h1{
     font-family: "Henny Penny", serif;
     letter-spacing: 1px;
@@ -75,14 +83,14 @@ p{
 }
 
 /* Imagen*/
-#img1{
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+    width: 300px;
 }
 
-/* ESTILO PARA LA PAG DE ALBUMES APP1*/
 #sub {
     display: list-item;
     list-style-type: circle;
@@ -93,34 +101,5 @@ h3{
     text-align: justify;
     word-spacing: 10px;
     padding: 0px 70px;
-}
-
-#img2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    width: 300px;
-}
-
-/* ESTILO PARA LA PAG DE CANCIONES APP1*/
-li{
-    margin: 10px 0;
-}
-
-#img3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-}
-
-/* ESTILO PARA LA PAG DE INTEGRANYES APP2*/
-#img4{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    width: 300px;
 }
 
