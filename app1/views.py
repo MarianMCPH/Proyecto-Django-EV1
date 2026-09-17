@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def vista_albumes(request):
+    return render(request, 'app1/albumes.html')
+
+def vista_canciones(request):
+    return render(request, 'app1/canciones.html')
