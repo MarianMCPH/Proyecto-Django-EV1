@@ -1,0 +1,104 @@
+/* ESTILO BASE PARA TODAS LAS PAGINAS*/
+/* fondo */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(186, 178, 240);
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header {
+    width: 100%;
+}
+
+/* Menú */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+#m1 { background-color: rgb(85, 45, 145); }
+#m2 { background-color: rgb(95, 52, 160); }
+#m3 { background-color: rgb(105, 58, 175); }
+#m4 { background-color: rgb(115, 65, 190); }
+#m5 { background-color: rgb(125, 72, 205); }
+
+nav li {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav li:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 10px;
+    width: 100%;
+    display: block;
+}
+
+/* ESTILO PARA LA PAG DE BIENVENIDA*/
+/* Texto*/
+h1{
+    font-family: "Henny Penny", serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    word-spacing: 10px;
+    padding: 0px 70px;
+}
+
+/* Imagen*/
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+/* ESTILO PARA LA PAG DE ALBUMES APP1*/
+#sub {
+    display: list-item;
+    list-style-type: circle; /* Para viñeta circular hueca °, o 'disc' para punto relleno • */
+    list-style-position: inside;
+}
+
+h3{
+    text-align: justify;
+    word-spacing: 10px;
+    padding: 0px 70px;
+}
+
+#img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 300px;
+}

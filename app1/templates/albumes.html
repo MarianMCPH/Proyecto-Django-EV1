@@ -4,9 +4,13 @@
 {% block title %}Álbumes | Arctic Monkeys{% endblock %}
 
 {% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
 <section>
-    <h1>Discografía Destacada</h1>
-    <p>Principales producciones discográficas de la banda británica:</p>
+    <h1>🎶Discografía Destacada🎶</h1>
+    <p id="sub">Principales producciones discográficas de la banda británica:</p>
     
     <div>
         <h3>AM (2013)</h3>
@@ -16,6 +20,34 @@
     <div>
         <h3>Favourite Worst Nightmare (2007)</h3>
         <p>Segundo álbum de estudio, caracterizado por su velocidad, baterías enérgicas y letras agudas.</p>
+    </div>
+
+    <div>
+        <h3>Whatever People Say I Am, That's What I'm Not (2006)</h3>
+        <p>Álbum debut que batió récords de ventas en el Reino Unido,
+        impulsado por temas acelerados sobre la vida nocturna juvenil como I Bet You Look Good on the Dancefloor.</p>
+    </div>
+
+    <div>
+        <h3>Favourite Worst Nightmare (2007)</h3>
+        <p>Segundo trabajo de estudio, 
+        caracterizado por su velocidad, baterías potentes y canciones icónicas como Brianstorm y Fluorescent Adolescent.</p>
+    </div>
+
+    <div>
+        <h3>Humbug (2009)</h3>
+        <p>Producido junto a Josh Homme en el desierto de California, marca un giro hacia un sonido más oscuro, pesado
+        y psicodélico, destacando cortes como Crying Lightning.</p>
+    </div>
+
+    <div>
+        <h3>WThe Car (2022)</h3>
+        <p>Séptimo disco de estudio de la banda, enfocado en arreglos orquestales, cuerdas elegantes y un estilo 
+        cinematográfico con baladas como There'd Better Be a Mirrorball.</p>
+    </div>
+
+    <div>
+        <img id="img2" src="{% static 'img/albumes.webp' %}" alt="Banda Arctic Monkeys" width="600">
     </div>
 </section>
 {% endblock %}
