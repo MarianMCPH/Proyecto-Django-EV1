@@ -113,6 +113,16 @@ li{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+}
+
+/* ESTILO PARA LA PAG DE INTEGRANYES APP2*/
+#img4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 300px;
+}
     width: 300px;
 }
 

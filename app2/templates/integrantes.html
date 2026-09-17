@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Integrantes | Arctic Monkeys{% endblock %}
+
+{% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+<section>
+    <h1>🎸Integrantes de la Banda🎸</h1>
+
+    <ul>
+        <li>
+            <h3>Alex Turner (Voz principal y guitarra)</h3>
+            <p>Líder, principal compositor y multiinstrumentista. Destacado por su agudeza lírica, juegos de palabras poéticos y presencia escénica carismática.</p>
+        </li>
+
+        <li>
+            <h3>Jamie Cook (Guitarra principal y coros)</h3>
+            <p>Miembro fundador responsable de los característicos riffs enérgicos de los primeros discos y de la experimentación con efectos sonoros espaciales.</p>
+        </li>
+
+        <li>
+            <h3>Nick O'Malley (Bajo y coros)</h3>
+            <p>Se integró en 2006. Sus líneas melódicas de bajo y falsetes vocales son el sostén rítmico fundamental en álbumes clave como <em>AM</em>.</p>
+        </li>
+
+        <li>
+            <h3>Matt Helders (Batería y coros)</h3>
+            <p>Reconocido como uno de los bateristas más técnicos y potentes del rock moderno, complementando además con segundas voces distintivas.</p>
+        </li>
+    </ul>
+
+    <div>
+
+        <img id="img4" src="{% static 'img/integrantes.webp' %}" alt="Banda Arctic Monkeys" width="600">
+    </div>
+</section>
+{% endblock %}
