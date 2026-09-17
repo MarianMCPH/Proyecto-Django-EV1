@@ -4,15 +4,27 @@
 {% block title %}Canciones Populares | Arctic Monkeys{% endblock %}
 
 {% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
 <section>
-    <h1>Canciones Más Escuchadas</h1>
-    <p>Los temas con mayor impacto y reproducciones en plataformas digitales:</p>
+    <h1>🎤Canciones Más Escuchadas🎤</h1>
+    <p id="sub">Los temas con mayor impacto y reproducciones en plataformas digitales:</p>
 
     <ul>
         <li><strong>Do I Wanna Know?</strong> - Perteneciente al álbum AM.</li>
         <li><strong>505</strong> - Un clásico del disco Favourite Worst Nightmare.</li>
         <li><strong>I Wanna Be Yours</strong> - Balada basada en el poema de John Cooper Clarke.</li>
         <li><strong>Fluorescent Adolescent</strong> - Uno de los sencillos más representativos de la banda.</li>
+        <li><strong>Why'd You Only Call Me When You're High? (2013)</strong> - Tema con influencias marcadas de R&B contemporáneo y bajo groove, centrado en las decisiones de la madrugada.</li>
+        <li><strong>R U Mine? (2012)</strong> - Canción acelerada de guitarras pesadas y baterías complejas a cargo de Matt Helders, que marcó el inicio de la era AM.</li>
+        <li><strong>I Bet You Look Good on the Dancefloor (2005)</strong> - El sencillo debut con el que irrumpieron en la escena internacional gracias a su ritmo frenético de indie post-punk.</li>
+        <li><strong>Snap Out of It (2013)</strong> - Canción pop rock con palmas, coros pegajosos y melodías vocales destacadas de Alex Turner.</li>
+        <li><strong>Arabella (2013)</strong> - Fusión de rock setentero y psicodelia que rinde homenaje explícito en sus solos y puente al estilo de Black Sabbath.</li>
+        <li><strong>Cornerstone (2009)</strong> - Balada acústica suave del álbum Humbug, conocida por su tono narrativo humorístico y melancólico.</li>
     </ul>
+
+    <img id="img3" src="{% static 'img/cancion.webp' %}" alt="Banda Arctic Monkeys" width="600">
 </section>
 {% endblock %}
