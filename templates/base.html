@@ -12,8 +12,8 @@
         <nav>
             <ul>
                 <li id="m1"><a href="{% url 'bienvenida' %}">Inicio</a></li>
-                <li id="m2"><a href="#">Álbumes</a></li>
-                <li id="m3"><a href="#">Canciones Más Escuchadas</a></li>
+                <li id="m2"><a href="{% url 'app1:albumes' %}">Álbumes</a></li>
+                <li id="m3"><a href="{% url 'app1:canciones' %}">Canciones Más Escuchadas</a></li>
                 <li id="m4"><a href="{% url 'app2:integrantes' %}">Integrantes y Biografías</a></li>
                 <li id="m5"><a href="{% url 'app2:premios' %}">Premios y Logros</a></li>
             </ul>

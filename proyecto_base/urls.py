@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.bienvenida, name='bienvenida'),
     path('app2/', include('app2.urls')),
+    path('app1/', include('app1.urls')),
 ]
